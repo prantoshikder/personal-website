@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.link-button {
+    padding: 10px 30px;
+    background-color: deeppink;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.link-button:hover {
+    color: deeppink;
+    border: 1px solid deeppink;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.half-width {
+    width: 35%;
+    float: left;
+    padding: 45px 55px;
+    margin: 3%;
+}
+
+
+/* Header Part Start */
+
+.header-part {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: 45% 22%;
+    padding: 85px 102px;
+}
+
+header {
+    height: 700px;
+    width: 100%;
+}
+
+.menu-area {
+    display: flex;
+    margin-top: -45px;
+}
+
+.logo-part {
+    margin-left: 100px;
+}
+
+.logo-part a {
+    font-size: 18px;
+}
+
+.logo-part a h1 {
+    font-weight: 700;
+}
+
+.logo-part a h1 span {
+    color: deeppink;
+}
+
+.menu-part {}
+
+.menu-part ul {
+    display: flex;
+    margin-left: 145%;
+}
+
+.menu-part ul li {
+    margin-right: 15px;
+}
+
+.menu-part {}
+
+.menu-part ul li a {
+    color: deeppink;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+
+.menu-part ul li a:hover {
+    color: rgb(80, 7, 133);
+}
+
+.header-content .half-width h2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.header-content .half-width h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: deeppink;
+    padding-top: 20px;
+}
+
+.header-content .half-width p {
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    line-height: 24px;
+}
+
+
+/* Header Part End */
+
+.biography-part {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+.biography-part .half-width h2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+.biography-part .half-width p {
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 45px;
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.social-link {
+    margin-right: 40%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.social-link ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.social-link ul li {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin-left: 12px;
+}
+
+.social-link ul li a {
+    height: 32px;
+    width: 42px;
+    border: 1px solid deeppink;
+    border-radius: 50%;
+    font-size: 20px;
+    color: deeppink;
+    padding-top: 9px;
+    transition: all linear .3s;
+}
+
+.social-link ul li a:hover {
+    background: deeppink;
+    color: white;
+}
+
+
+/* Biography Part End */
+
+
+/* Work Part Start */
+
+.latest-work-part {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 50px;
+}
+
+.latest-work-part h2 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.latest-work-part .work-area {
+    padding: 45px 30px;
+    overflow-x: hidden;
+}
+
+.work-part {
+    width: 33%;
+    float: left;
+}
+
+.footer-part {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    background-position: center;
+}
+
+.footer-part h2 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.footer-part p {
+    color: gray;
+    font-size: 15px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    padding-top: 50px;
+}
+
+.footer-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.footer-content p {
+    color: gray;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.footer-content h4 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.contact-area {
+    margin-top: 70px;
+    padding-bottom: 50px;
+    height: 110px;
+    width: 500px;
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    margin-left: 34%;
+    border-radius: 5px;
+}
+
+.contact-area p {
+    color: white;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.contact-area h2 {
+    color: white;
+    font-size: 25px;
+}
